@@ -2,7 +2,7 @@ from odoo import models, fields, api
 
 class StockPicking(models.Model):
     _inherit = 'stock.picking'
-#NUevo campo
+#NUevo campohhhhhhhhhhhhh
     picking_total = fields.Monetary(
         string="Total Despacho",
         currency_field='currency_id',
